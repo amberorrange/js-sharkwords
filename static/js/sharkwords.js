@@ -85,7 +85,7 @@ const resetGame = () => {
 // This is like if __name__ == '__main__' in Python
 //
 (function startGame() {
-  // For now, we'll hardcode the word that the user has to guess.
+  // For now, we'll hardcode the word that the user has to guess
   const word = 'hello';
 
   createDivsForChars(word);
